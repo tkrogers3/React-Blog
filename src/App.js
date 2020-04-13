@@ -7,12 +7,13 @@ import Navbar from './Components/Navbar.js'
 class App extends React.Component{
   constructor(props){
     super(props)
-    this.state = {currentPage: "Home"}
+    this.state = {currentPage: "Welcome to Tim's Blog!"}
     this.updatePage= this.updatePage.bind(this)
   }
 
   updatePage(newPage){
-    this.setState({curentPage: newPage})
+    console.log("in the update page function", newPage)
+    this.setState({ currentPage: newPage})
   }
   
 
@@ -29,14 +30,16 @@ class App extends React.Component{
         <p>
           {this.state.currentPage}
         </p>
+        This page is under construction.<br></br>Checkout the latest version of my
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://tkrogers3.github.io/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+            blog
         </a>
+        
       </header>
    
     </div>
