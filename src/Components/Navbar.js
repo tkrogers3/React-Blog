@@ -21,7 +21,7 @@ class Navbar extends Component {
             method, we are defining a function, not calling it. 
             */
                 onClick={() => this.props.updatePage(link)}
-                className= "p-5"
+                className= "p-2   navStuff"
                 href="#"
                 key ={index}
              
