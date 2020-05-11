@@ -2,7 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import Navbar from './Components/Navbar.js'
+import Navigation from './Components/Navbar.js'
+import Contacts from './Components/Contacts.js'
 
 class App extends React.Component{
   constructor(props){
@@ -20,10 +21,9 @@ class App extends React.Component{
   render(){
   return (
     <div className="App">
-      <Navbar 
-      updatePage={this.updatePage}
+      <Navigation 
+      updatePage={this.updatePage}/>
 
-      />
       <header className="App-header">
         <img src="Images/profile.jpg" className="App-logo" alt="logo" />
         <p>
@@ -38,10 +38,10 @@ class App extends React.Component{
           target="_blank"
           rel="noopener noreferrer"
         >
-         This page is under construction.<br></br>Checkout the latest version of my <u>Github Pages blog</u>.
+         This page is under construction.<br></br>Checkout the latest version of my <u>Github Pages</u>.
         </a>
       </header>
-   
+   <Contacts />
     </div>
   );
   }
