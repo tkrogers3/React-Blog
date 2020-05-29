@@ -19,7 +19,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:teal;
 }
 
 .App-link {
@@ -39,4 +39,22 @@
   color:aqua;
  background-color: crimson;
  ;
+}
+
+#imgSize{
+
+    height:400px !important;
+    width: 300px !important;
+   
+ 
+}
+.github{
+ color: #333333;
+}
+.linkedIn{
+  color:#0077b5;
+}
+
+.twitter{
+  color:#1da1f2;
 }

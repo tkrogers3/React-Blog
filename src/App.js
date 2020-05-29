@@ -2,8 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Navigation from './Components/Navbar.js'
 import Contacts from './Components/Contacts.js'
+import BlogPosts from './Blog.js'
+import {
+  Card, CardImg, CardText, CardBody,
+  CardTitle, CardSubtitle, Button
+} from 'reactstrap';
 
 class App extends React.Component{
   constructor(props){
@@ -23,25 +30,26 @@ class App extends React.Component{
     <div className="App">
       <Navigation 
       updatePage={this.updatePage}/>
-
+    <div className="container">
+      
+      </div>
       <header className="App-header">
-        <img src="Images/profile.jpg" className="App-logo" alt="logo" />
-        <p>
        
+        <p>
+        <Card className="p-2 m-5">
+        <CardBody>
+        <CardImg img src="Images/profile.jpg" id="imgSize"/>
+          <CardTitle>Tim Rogers </CardTitle>
+          <CardSubtitle>Full Stack Web Development Blog</CardSubtitle>
+        </CardBody>
+      </Card>
 
           {this.state.currentPage}
          <hr className="hr"></hr> 
         </p>
-        <a
-          className="App-link"
-          href="https://tkrogers3.github.io/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         This page is under construction.<br></br>Checkout the latest version of my <u>Github Pages</u>.
-        </a>
+       <BlogPosts />
       </header>
-   <Contacts />
+
     </div>
   );
   }
