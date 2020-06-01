@@ -58,3 +58,11 @@
 .twitter{
   color:#1da1f2;
 }
+
+.text-start{
+  text-align: start !important;
+}
+.scroll{
+  overflow: scroll;
+  max-height: 95vh;
+}

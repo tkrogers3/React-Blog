@@ -25,13 +25,14 @@ function Navigation (props) {
         "Résumé",
         "Contact"
 ] 
+
 const navLinks = navbarLinks.map((link, index) => {
     return(
       <NavItem>
         <NavLink key={index} 
         className="d-inline-flex"
         onClick={()=>props.updatePage(link)}
-        href="#">
+        href="# [index]">
          {link}
         </NavLink>
       </NavItem>

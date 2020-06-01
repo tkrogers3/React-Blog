@@ -1,29 +1,45 @@
-import React from 'react';
+import React from 'react';      
 import Blog from "./Blog.json";
-import { Card, CardHeader, CardTitle, CardBody, CardSubtitle, CardText } from 'reactstrap';
+import { Card, CardHeader, CardTitle, CardBody, CardText , CardSubtitle} from 'reactstrap';
 function BlogPosts(props) {
 console.log(Blog);
-    const blogs = Blog.map((post, index) => {
-        return (
-            <Card key={index}>
-                <CardBody>
-                    <CardHeader>{post.week}</CardHeader>
-                    <CardTitle>{post.question[index]}</CardTitle>
-                    <hr></hr>
-                    <CardText>{post.answer}</CardText>
-                </CardBody>
-            </Card>
+function splitParas(post) {
+    return post.map((item, index) => {
+        if (index % 2 === 0) {
+            return <CardSubtitle  className="mx-auto p-2 " key ={index}>{item}
+       <hr className="bg bg-dark"></hr>
+            </CardSubtitle>
+        } else {
+            return <CardBody  className="m-2 text-start"key  ={index}>{item} <hr></hr></CardBody>
+        }
+    })
+}
+const blogs = Blog.map((post, index) => {
+    
+    return (
+    <Card key={index} className="m-2 ">
+            <CardHeader  className="">
+            {post.week}
+            </CardHeader>
+           
+            {splitParas(post.question)}
+          
+            
+        </Card>
+              
         )
     })
+   
+    
     return (
 
 
-        <div className="container">
-            <div className="col-2-md"></div>
-            <div className="col-8-md">
+        <div className="container scroll">
+            <div className="col-4-sm"></div>
+            <div className="col-4-sm">
                 {blogs}
             </div>
-            <div className="col-2-md"></div>
+            <div className="col-4-sm"></div>
         </div>
     )
 

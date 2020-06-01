@@ -3,12 +3,10 @@
         "week": "Pre-Work Week 1",
         "question": [
             "What are your thoughts on Pre Work Week 1?",
-            "My Biggest Challenge",
-            "What did I learn this week?"
-        ],
-        "answer": [
             "Week 1 of 20 is in the books! I must say that Pre Work Week 1 had it's challenges. At times I was very frustrated at my lack of knowledge. As I was confronted with challenges and blockers, I looked to the information provided in the Trello board, as well as reaching out via the Slack Help channel. What a blessing that has been to my classmates and I.",
+            "My Biggest Challenge",
             "My biggest challenge was working through the command line. I wanted to start off week 1 strong and I knew focusing on command line would be priority #1 for me. As the week came to a close, I began to feel more confident in command line, but not confident enough to know I am not at a place where I can begin to feel comfortable. There is a lot of work to be done and I am excited to work!",
+            "What did I learn this week?",
             "This week I learned how to create a local repository with files by way of the command line. It is so simple to right click on the desktop and create a folder, but I really enjoyed learning how to do it through the command line. I learned that the Command Line is bittersweet to a beginner. You can begin to see the beauty of what you can accomplish once you get past the blockers.  I also learned how to merge an existing project to a Github repository, and the importance of having a local and remote copy of your work."
         ]
     },
@@ -16,12 +14,10 @@
         "week": "Pre-Work Week 2",
         "question": [
             "What are your thoughts on pseudo coding?",
-            "What are you struggling with?",
-            "What are you excited or eager to learn more about?"
-        ],
-        "answer": [
             "I have come to realize that if you don't come into a project with a plan, if you try to piece things together as they go, you can get lost in a mess of code. One thing I enjoy about pseudo coding is that you have a game plan. You have an understanding of where you're trying to go. From there, you map out your destination. I am an \"on the fly\" guy, so I am going to have to wrangle myself in to being disciplined to keep to the pseudo code model. It saves headaches and time.",
+            "What are you struggling with?",
             "I have struggled with files and folder in my blog. I created a folder inside of my blog folder to hold each of my weekly blog posts. I have not figured out why my directories are not lining up correctly. When I click the nav bar to take me home or to a weekly blog link, I get an error. This is very frustrating because I am waisting a lot of time on an issue that should be easily resolvable for an experienced programmer, but it is a mountain for this \"young in the tooth\" novice.",
+            "What are you excited or eager to learn more about?",
             "I am excited to learn more about CSS this week. With JavaScript coming up as well, I want to get a firm grasp of the basics of CSS. I have some experience in JavaScript from a prior course, and I remember how challenging it is. I want to be on my toe going into the next weeks lessons and assignments to present a nice product from Pre Work Week 3 Demo Day."
         ]
     },
@@ -29,11 +25,121 @@
         "week": "Pre-Work Week 3",
         "question": [
             "What are your thoughts about the roles that HTML,CSS and JavaScript play in the process of rendering content and providing user experience?",
-            "What are some objects that your blog incorporates?"
-        ],
-        "answer": [
             "When I was first introduced to the concept of a website built by HTML, CSS and Javascript, I was introduced to it as a 3 layer cake. Each layer providing crucial substance to a webpage. Sure, a vanilla (HTML) cake tastes fine as is, but add a layer of chocolate (CSS) and it enhances your taste buds. However if you really want a full delicious experience, you can top is off with a layer strawberry and you get the full taste experience. I think thats how I'm learning a web page works.Sure HTML and HTML and CSS webpages can look great, but user experience ignites when JavaScript comes to play. Without it, our online shopping experiences wouldn't be the same, we'd have no Netflix to binge, and we wouldn't know when we've met our allotted characters when typing a tweet.This week I've really been relying on JavaScript notation, videos on JavaScript and better ways to understand its functionality.I've been working hard on trying to understand what is being asked of be, pseudo coding how to approach the problem,and then looking for the tools I need to complete the problem. This has been a struggle to me because I like to jump head first into a problem with basic information, when sometimes I need to take a step back and gather all of the puzzle pieces and come up with a plan of action.",
+            "What are some objects that your blog incorporates?",
             "I am sad that I haven't added any JavaScript to my blog at this point. I want to be diligent in running my own code when I add JS to my page, and at this point I haven't. I am hoping that Pre Work Week 4 will help me gain confidence and understanding in creating my own JS for my blog. I would like to add a comment section to my blog for others to leave advice or comments on my work thus far."
+        ]
+    },
+    {
+        "week": "Pre-Work Week 4",
+        "question": [
+            " What was one thing you liked and disliked about each of the new topics covered in prework?",
+            "Week 1 of HTML was very enjoyable. HTML seemed to be pretty easy to learn and it was a great start to to get me ready for the Boot Camp journey. I really can't think of anything that I disliked about HTML. Week 2 starting the journey in HTML and CSS was a challenge but also rewarding. I appreciated learning how to style elements to bring an HTML page to life. I am still learning my way around CSS so one thing I wasn't crazy about was how many details can go into one element and how hard it is to memorize all of the styles and weights to an style. I've got a ways to go in making a webpage from scratch beautiful but I am still very early in my journey. Weeks 3 and 4 of JavaScript were the hardest of Bootcamp so far for me as I got lost in all of the syntax. Functions, operators, loops, if/else statements, arrays, methods, variables, strings, booleans... you name it, I got confused about it! There was so much information that I tried to contain it all and I could only fit some much into my current 8gb mind! I'm looking forward to growing with JS and having it become a close friend. I feel as though I've come a good way in the last 2 weeks, but as I go into week 5, and week 1 of in house Bootcamp, I will have times that I am still confused and challenged, but I am also excited to learn from my instructors, with my classmates. I truly believe we will all bring out the best in each other!",
+            "What hindered your progress?",
+            "I believe my progress was hindered several ways. Life gets in the way at times. I found that when I would sit time aside to work on a specific task, as soon as I would sit down to begin working, something would happen that would require my attention. <br /> <br /> I also think that the wealth of material that has been made available to us was part of my hindrance. I found that my lack of unfamiliarity to certain projects was a lot at times. I would scour to find any information that would assist my cause, and at times it slowed me down. When I invest in something, I like doing research to make sure it is worthwhile. I has found out these last 4 weeks that it takes time to develop knowledge to do certain tasks, or learn ways to be DRY in my and make things simpler. I must take with me from this last month that it's ok to not be ok, and that in time things will become easier as my knowledge grows.",
+            " How did you overcome challenges?",
+            "Guidance from classmates and instructors, pseudo code, reading, watching code demonstrations, walking away and breathing, getting a good nights rest to tackle the problem the next day. All of these things helped me this month. Also, coffee. Lots of coffee."
+        ]
+    },
+    {
+        "week": " Week 1",
+        "question": [
+            "What did you learn about that helped you understand more about design?",
+            " I learned more about the importance of contrast, repetition, alignment and proximity, and how all of them work together to make a quality product. Upon looking at examples of low quality work, it opened my eyes to seeing how easy it can be to make mistakes, and how to develop an eye for things that make the product less desirable.",
+            "What do you want to continue learning about that helps you understand design better? ",
+            "Well personally I want to learn to design better on Bootstrap. I had fun with the template in my project this week, but I want to understand it enough that I can piece my blog together without having to use a template. I struggled with that this weekend as I tried to create my new Blog homepage. ",
+            "What Design aspects are important to you as a user and as a developer?",
+            "  As a user, I want a product that doesn't make me do the work. I like to see a clean, readable product that doesn't require my eyes to do the work of the developer. I want to be able to find what I'm looking for in a website or app without scouring the site. As a developer, I want to provide that to my clients."
+        ]
+    },
+    {
+        "week": "Week 2",
+        "question": [
+            " What did you learn about that helped you understand the development process?",
+            "I learned a lot about data structures and methods this week, which will are imperative to the development process. Walking through and implementing API's, JSON data (objects- values and properties) and Asynchronous JavaScript (fetch/promise, then/fulfillment, catch/error) will help me to become a stronger developer. I am looking forward to using the information I learned this week in my future projects.",
+            "What does it mean to develop good code?",
+            "This is a question I have asked myself every week of this course. What <em>does</em> it mean to develop good code? I think thats a question I'll continue to piece together as I grow. One thing I've learned over this week is that to develop good code, you have to develop good thinking. Critical, computational, logical thinking. All extremely important to developing good code. I think asking the right questions develops good code. Knowing when and how to ask questions continues to be a important part of the coding process.",
+            " What does it mean to be a good developer?.",
+            " All of the things that I mentioned to develop good code can be used to answer this question as well! I think speaking outside the box of being a good developer, being open to feedback, listening to other developers on your team, making an extra effort to step in and help by answering a question or offering to grab a cup of coffee for a friend knee-deep in code can be a big part of being a good developer. To me right now, growing as a developer I want to be better at identifying a problem faster, identifying the right steps to take as a process starts. I can't say it enough because I can't hear it enough, Pseudo Coding is so important. It is the foundation to be laid before the first piece of code should be written. I need to engrain that in my mind. "
+        ]
+    },
+    {
+        "week": " Week 3",
+        "question": [
+            " Why do you see JavaScript useful or hard to use?",
+            " While I see Javascript as challenging at times, I see the beauty in all it allows a user to do. As a developing programmer, I have at times looked at a problem dumbfounded, which can be disheartening, but I remind myself that is is like learning a foreign language in 2 months. Within that time frame you can learn  words, some phrases, maybe even a little bit of local lingo, but theres still work to be done to be proficient. So while I see JS as a challenge, I am looking forward to continue the learning process."
+        ]
+    },
+    {
+        "week": " Week 4",
+        "question": [
+            "Why do you see JavaScript Frameworks and Libraries useful or hard to use?",
+            "I've enjoyed learning Bootstrap and React. I think they are great tools to make the development process simpler for a programmer. A developers main goal is to code a program. Frameworks and libraries slim down the time needed for styling so its easier to keep coding the main thing."
+        ]
+    },
+    {
+        "week": " Week 5",
+        "question": [
+            "List some ideas that without a Framework, would take you a long time to code",
+            "Using JSON data, you can display thousands of blog posts by mapping over a function that would rendering a page framework to display all of the blog posts. Anything that could be made by using repetitive code, can most certainly be used by a framework to save time.",
+            "How do you feel now compared to when you started Bootcamp?",
+            " When I stepped into Bootcamp, my knowledge was low. I had an understanding of HTML, CSS and Javascript from the intro course, but I was still very much a child in my growth. Now, in week 5, my knowledge has grown but I am still staring into a glass, darkly. I have grown so much in the last 9 weeks. To think that I could publish a fully developed webpage at this point in Week 1 would have seemed an impossibility. Now it is a very exciting process but still very challenging. If I take a step back to think of what I've learned, I believe it will help me to see what I am capable of and for that to be an encouragement going forward."
+        ]
+    },
+    {
+        "week": "Week 6",
+        "question": [
+            "   What do you like about React?",
+            "I like how you can break down a project by components. You can make your code much cleaner and easier to use and find.",
+            " What is your biggest win this week? Halfway through!",
+            "My biggest win for the week. Some weeks it seems like there aren't many. This week seemed like one of those weeks. I believe my understanding is growing but I didn't checkoff 2 of my goals for the project this week. I took this weekend to go back and study vanilla JS in areas that I am still lacking. I haven't found the time to go back to things I didn't spend enough time on, so I made it priority #1 this weekend. I am still planning on doing more of that this week. As our front end time is coming to a close, I want to get more well versed to be ready for the final project in a few weeks. My win for the week was taking time to catch up on JS, even if it put me behind for next weeks project."
+        ]
+    },
+    {
+        "week": "Week 7",
+        "question": [
+            "What have you learned about PHP and server side programming that you were not aware of prior to this week?",
+            " PHP is an interesting language that I am looking forward to learning more about. Since the start of bootcamp I have wondered what back end programming would even look like since it seemed I could do whatever I wanted in Front-End. Boy was I naive!",
+            "What do you want to know more about PHP and server side programming?",
+            "I want to learn more about using databases with PHP. Intertwining a Database with PHP was a challenge to learn this week but it seems like it will be made easier when we venture into Laravel next week.",
+            "How has learning PHP been? What are some similarities and differences you can see with JS?",
+            "Variables don't seem much difference. A simple $ replaces var/let. Less typing. Loops, if statements, bootstrap all work kinda the same.",
+            ""
+        ]
+    },
+    {
+        "week": "Week 8",
+        "question": [
+            "",
+            ""
+        ]
+    },
+    {
+        "week": "Week 9",
+        "question": [
+            "",
+            ""
+        ]
+    },
+    {
+        "week": "Week 10",
+        "question": [
+            "",
+            ""
+        ]
+    },
+    {
+        "week": "Week 11",
+        "question": [
+            "",
+            ""
+        ]
+    },
+    {
+        "week": "Week 12",
+        "question": [
+            "",
+            ""
         ]
     }
 ]

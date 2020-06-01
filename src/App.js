@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Navigation from './Components/Navbar.js'
 import Contacts from './Components/Contacts.js'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import BlogPosts from './Blog.js'
 import {
   Card, CardImg, CardText, CardBody,
@@ -27,15 +28,17 @@ class App extends React.Component{
 
   render(){
   return (
+    <Router>
     <div className="App">
+    <div className="container">
       <Navigation 
       updatePage={this.updatePage}/>
-    <div className="container">
       
-      </div>
+   
       <header className="App-header">
        
         <p>
+        <Route path="/" exact>
         <Card className="p-2 m-5">
         <CardBody>
         <CardImg img src="Images/profile.jpg" id="imgSize"/>
@@ -43,14 +46,17 @@ class App extends React.Component{
           <CardSubtitle>Full Stack Web Development Blog</CardSubtitle>
         </CardBody>
       </Card>
-
+      </Route>
           {this.state.currentPage}
          <hr className="hr"></hr> 
-        </p>
+        </p> 
+        <Route path="/Blog">
        <BlogPosts />
+       </Route>
       </header>
-
+   </div>
     </div>
+        </Router>
   );
   }
 }
