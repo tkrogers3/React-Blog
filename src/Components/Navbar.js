@@ -18,7 +18,7 @@ function Navigation (props) {
     const toggle = () => setIsOpen(!isOpen);
        const [links, setLinks]= useState();
        let navbarLinks = [
-        "Blog",
+        "Blog", 
         "Portfolio",
         "Github",
         "Stuff I Enjoy",
