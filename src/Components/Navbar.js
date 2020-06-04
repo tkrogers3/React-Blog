@@ -20,10 +20,8 @@ function Navigation (props) {
        let navbarLinks = [
         "Blog", 
         "Portfolio",
-        "Github",
-        "Stuff I Enjoy",
-        "Résumé",
-        "Contact"
+        "Contact",
+         "Resume"
 ] 
 
 const navLinks = navbarLinks.map((link, index) => {
@@ -32,7 +30,7 @@ const navLinks = navbarLinks.map((link, index) => {
         <NavLink key={index} 
         className="d-inline-flex"
         onClick={()=>props.updatePage(link)}
-        href="# [index]">
+        href="#">
          {link}
         </NavLink>
       </NavItem>

@@ -1,17 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import Navigation from './Components/Navbar.js'
-import Contacts from './Components/Contacts.js'
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import BlogPosts from './Blog.js'
-import {
-  Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button
-} from 'reactstrap';
+import Navigation from './Components/Navbar.js';
+import Home from './Components/Home.js';
+import BlogPosts from './Blog.js';
+import Contact from './Components/Contacts.js';
+import Resume from './resume4.pdf';
+import Portfolio from './Components/Portfolio.js'
+
 
 class App extends React.Component{
   constructor(props){
@@ -28,35 +25,50 @@ class App extends React.Component{
 
   render(){
   return (
-    <Router>
-    <div className="App">
-    <div className="container">
+    
+    <div className="App">  
+   
       <Navigation 
-      updatePage={this.updatePage}/>
+      updatePage={this.updatePage}
+
+      />
       
    
       <header className="App-header">
        
         <p>
-        <Route path="/" exact>
-        <Card className="p-2 m-5">
-        <CardBody>
-        <CardImg img src="Images/profile.jpg" id="imgSize"/>
-          <CardTitle>Tim Rogers </CardTitle>
-          <CardSubtitle>Full Stack Web Development Blog</CardSubtitle>
-        </CardBody>
-      </Card>
-      </Route>
-          {this.state.currentPage}
+        {this.state.currentPage}
          <hr className="hr"></hr> 
         </p> 
-        <Route path="/Blog">
-       <BlogPosts />
-       </Route>
-      </header>
-   </div>
-    </div>
-        </Router>
+   
+  
+
+        { 
+          this.state.currentPage === "Home" ?
+          <Home /> : null
+        }
+        {
+          this.state.currentPage === "Blog" ?
+        <BlogPosts /> : null}
+
+
+{
+          this.state.currentPage === "Portfolio" ?
+        <Portfolio /> : null}
+        { 
+          this.state.currentPage === "Resume" ?
+          <Resume /> : null
+        }
+
+        {
+          this.state.currentPage === "Contact" ?
+        <Contact /> : null}
+        </header>
+        </div>
+
+     
+
+
   );
   }
 }

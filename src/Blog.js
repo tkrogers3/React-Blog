@@ -18,7 +18,7 @@ const blogs = Blog.map((post, index) => {
     
     return (
     <Card key={index} className="m-2 ">
-            <CardHeader  className="">
+            <CardHeader  className="sticky-top bg-dark">
             {post.week}
             </CardHeader>
            
