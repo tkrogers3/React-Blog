@@ -1,0 +1,118 @@
+[
+    {
+        "Project": "Cincy Jungle",
+        "Image": "./Images/cincyjungle.png",
+        "TechStack": [
+            "React",
+            "MySQL",
+            "PHP",
+            "JavaScript",
+            "Laravel",
+            "Bootstrap",
+            "CSS"
+        ],
+        "Repo": "https://github.com/tkrogers3/React-CincyJungle-Clone",
+        "LiveSite": "https://cincyjungle.web.app/",
+        "Description": " A Bengals Message Board clone using JavaScript, React, reactstrap, Laravel, Google Cloud and Google Firebase"
+    },
+    {
+        "Project": "React Restaurant",
+        "Image": "./Images/diner.png",
+        "TechStack": [
+            "Bootstrap",
+            "JavaScript",
+            "React"
+        ],
+        "Repo": "https://github.com/tkrogers3/react-restaurant",
+        "LiveSite": "https://tkrogers3.github.io/react-restaurant/",
+        "Description": "Dynamic mock restaurant menu utilizing a menu API, using React and JavaScript"
+    },
+    {
+        "Project": "Tic-Tac-Toe",
+        "Image": "./Images/tictactoe.png",
+        "TechStack": [
+            "Bootstrap",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "Repo": "https://github.com/tkrogers3/Tic-Tac-Toe",
+        "LiveSite": "https://tkrogers3.github.io/Tic-Tac-Toe/",
+        "Description": "Tic-Tac-Toe project using HTML, CSS, JS, Bootstrap."
+    },
+    {
+        "Project": "Bouncing Balls",
+        "Image": "./Images/bouncing.png",
+        "TechStack": [
+            "JavaScript",
+            "CSS"
+        ],
+        "Repo": "https://github.com/tkrogers3/Bouncing-Balls",
+        "LiveSite": "https://tkrogers3.github.io/Bouncing-Balls/",
+        "Description": "A JavaScript game that using Objects and Classes."
+    },
+    {
+        "Project": "Weather App",
+        "Image": "./Images/weather.png",
+        "TechStack": [
+            "Bootstrap",
+            "JavaScript"
+        ],
+        "Repo": "https://github.com/tkrogers3/Weather-App",
+        "LiveSite": " https://tkrogers3.github.io/Weather-App/",
+        "Description": " A weather app using Bootstrap and JavaScript."
+    },
+    {
+        "Project": "Elf for Constable",
+        "Image": "./Images/elf.png",
+        "TechStack": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "GitHub"
+        ],
+        "Repo": "https://github.com/tkrogers3/Campaign-Components",
+        "LiveSite": "https://tkrogers3.github.io/Campaign-Components/",
+        "Description": "A campaign website for Buddy the Elf using Bootstrap."
+    },
+    {
+        "Project": "Mind-Reader",
+        "Image": "./Images/mindread.png",
+        "TechStack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "GitHub"
+        ],
+        "Repo": "https://github.com/tkrogers3/Mind-Reader-App",
+        "LiveSite": "https://tkrogers3.github.io/Mind-Reader-App/",
+        "Description": "A mind reading app using HTML, CSS and JavaScript"
+    },
+    {
+        "Project": "Digital Clock",
+        "Image": "./Images/clock.png",
+        "TechStack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "GitHub"
+        ],
+        "Repo": "https://github.com/tkrogers3/Digital-Clock",
+        "LiveSite": "https://tkrogers3.github.io/Digital-Clock/",
+        "Description": "A digital clock made with HTML, CSS and JavaScript"
+    },
+  
+        {
+        "Project": "To Do List",
+        "Image": "./Images/todo.png",
+        "TechStack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "GitHub"
+        ],
+        "Repo": "https://github.com/tkrogers3/To-Dos",
+        "LiveSite": "https://tkrogers3.github.io/To-Dos/",
+        "Description": "A digital clock made with HTML, CSS and JavaScript"
+    }
+]

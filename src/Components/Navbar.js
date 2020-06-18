@@ -18,18 +18,17 @@ function Navigation (props) {
     const toggle = () => setIsOpen(!isOpen);
        const [links, setLinks]= useState();
        let navbarLinks = [
-        "Blog",
+        "Blog", 
         "Portfolio",
-        "Github",
-        "Stuff I Enjoy",
-        "Résumé",
-        "Contact"
+        "Contact",
+         "Resume"
 ] 
+
 const navLinks = navbarLinks.map((link, index) => {
     return(
       <NavItem>
         <NavLink key={index} 
-        className=""
+        className="d-inline-flex"
         onClick={()=>props.updatePage(link)}
         href="#">
          {link}
@@ -40,7 +39,7 @@ const navLinks = navbarLinks.map((link, index) => {
      return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/" className="cursive ">Tim Rogers</NavbarBrand>
+        <NavbarBrand href="/" className="cursive">Tim Rogers</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>

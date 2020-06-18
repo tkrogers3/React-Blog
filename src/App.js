@@ -1,9 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import Navigation from './Components/Navbar.js'
-import Contacts from './Components/Contacts.js'
+import Navigation from './Components/Navbar.js';
+import Home from './Components/Home.js';
+import BlogPosts from './Blog.js';
+import Contact from './Components/Contacts.js';
+import Resume from './Components/Resume.js';
+import Portfolio from './Components/Portfolio.js'
+
 
 class App extends React.Component{
   constructor(props){
@@ -20,29 +25,50 @@ class App extends React.Component{
 
   render(){
   return (
-    <div className="App">
+    
+    <div className="App">  
+   
       <Navigation 
-      updatePage={this.updatePage}/>
+      updatePage={this.updatePage}
 
+      />
+      
+   
       <header className="App-header">
-        <img src="Images/profile.jpg" className="App-logo" alt="logo" />
-        <p>
        
-
-          {this.state.currentPage}
+        <p>
+        {this.state.currentPage}
          <hr className="hr"></hr> 
-        </p>
-        <a
-          className="App-link"
-          href="https://tkrogers3.github.io/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         This page is under construction.<br></br>Checkout the latest version of my <u>Github Pages</u>.
-        </a>
-      </header>
-   <Contacts />
-    </div>
+        </p> 
+   
+  
+
+        { 
+          this.state.currentPage === "Home" ?
+          <Home /> : null
+        }
+        {
+          this.state.currentPage === "Blog" ?
+        <BlogPosts /> : null}
+
+
+{
+          this.state.currentPage === "Portfolio" ?
+        <Portfolio /> : null}
+        { 
+          this.state.currentPage === "Resume" ?
+          <Resume /> : null
+        }
+
+        {
+          this.state.currentPage === "Contact" ?
+        <Contact /> : null}
+        </header>
+        </div>
+
+     
+
+
   );
   }
 }
