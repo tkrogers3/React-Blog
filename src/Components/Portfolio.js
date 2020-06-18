@@ -1,8 +1,8 @@
 import React from 'react';
 import Project from './Projects.json'
 import {
-  Card, Button, CardImg, CardTitle, CardText, CardGroup,
-  CardHeader, CardBody
+  Card, Button, CardImg, CardHeader, CardText, CardDeck,
+  CardSubtitle, CardBody,Col
 } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -50,18 +50,18 @@ const Portfolio = (props) => {
     }
     const projects = Project.map((Project, index) => {
         return(
-            <CardGroup className="row">
-            <Card className="col-4-sm bg bg-warning border border-danger">
-        <CardImg key={index} src={Project.Image} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>{Project.Project}</CardTitle>
-         <CardHeader className="row" key={index}>{techStack(Project.TechStack)}</CardHeader>
-          <CardText>{Project.Description}</CardText>
-          <Button href= {Project.Repo}>Repo</Button>
-          <Button href={Project.LiveSite}> App</Button>
+            <Col className="mb-5" lg={{ size: 4 }} sm={{ size: 'auto' }} xs={{ size: 'auto' }}>
+            <Card className=" mb-5 card h-100 border border-info">
+          <CardHeader className=" p-2 mb-2 header shadow">{Project.Project}</CardHeader>
+        <CardImg className="card-img-top mb-2" key={index} src={Project.Image} alt="Card image cap" />
+        <CardBody className="p-0">
+         <CardSubtitle className="row m-2" key={index}>{techStack(Project.TechStack)}</CardSubtitle>
+          <CardText className="text-start">{Project.Description}</CardText>
+          <Button className="header" href= {Project.Repo}>Repo</Button>{` `}
+          <Button className="header" href={Project.LiveSite}> App</Button>
         </CardBody>
         </Card>
-        </CardGroup>
+      </Col>
         )
     
     })
@@ -70,8 +70,10 @@ const Portfolio = (props) => {
      
    
     
-   <div className="row">
+   <div className="container">
+   <CardDeck className="row">
     {projects}
+    </CardDeck>
      </div>
   
    

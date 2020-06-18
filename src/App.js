@@ -6,7 +6,7 @@ import Navigation from './Components/Navbar.js';
 import Home from './Components/Home.js';
 import BlogPosts from './Blog.js';
 import Contact from './Components/Contacts.js';
-import Resume from './resume4.pdf';
+import Resume from './Components/Resume.js';
 import Portfolio from './Components/Portfolio.js'
 
 

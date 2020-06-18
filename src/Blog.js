@@ -6,9 +6,9 @@ console.log(Blog);
 function splitParas(post) {
     return post.map((item, index) => {
         if (index % 2 === 0) {
-            return <CardSubtitle  className="mx-auto p-2 " key ={index}>{item}
+            return <CardTitle  className="mx-auto p-2 font-weight-bold" key ={index}>{item}
        <hr className="bg bg-dark"></hr>
-            </CardSubtitle>
+            </CardTitle>
         } else {
             return <CardBody  className="m-2 text-start"key  ={index}>{item} <hr></hr></CardBody>
         }
@@ -18,7 +18,7 @@ const blogs = Blog.map((post, index) => {
     
     return (
     <Card key={index} className="m-2 ">
-            <CardHeader  className="sticky-top bg-dark">
+            <CardHeader  className="sticky-top text-white font-weight-bold header">
             {post.week}
             </CardHeader>
            
