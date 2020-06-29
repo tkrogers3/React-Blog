@@ -1,5 +1,15 @@
 [
 
+
+    {
+        "week": "Week 3 - Post Bootcamp",
+        "question": [
+            "What's kept you busy this week?",
+            "This week, I took some time to identify areas I would like to improve upon. I've noticed in many of the applications I've viewed during my job search that PHP and Backend work are very important skills to be proficient in as these seem to be highly desired. Given that I've mostly just worked on 2 projects with PHP, I want to have a grand understanding of Laravel, PHP, Databases and CRUD. I have decided to continue learning on these subjects by purchasing some online courses to futher my development. ",
+            "What has your job search experience been like?",
+            "Locally, I haven't seen many employers looking for junior developers as much as I thought I would. It could be because of Covid-19 and the fact that many businesses are working hard to stat a float, or it could be that most employers want someone who is already highly experienced in the languages, frameworks and tools that they use. Even so, I apply and use these application experiences to my benefit to learn more about what is desired and how I can become a better programmer for it."
+        ]
+    },
     {
         "week": "Week 1/2 - Post Bootcamp",
         "question": [
