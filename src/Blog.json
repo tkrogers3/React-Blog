@@ -1,6 +1,17 @@
 [
 
 
+
+
+    {
+        "week": "2 Month Post Bootcamp",
+        "question": [
+            "How's the job search going?",
+            "Each week I spend time searching for local and remote jobs that I feel would best fit my skill set and for places that I could see myself growing into a greater developer. The great thing about programming is that even in a time where there is so much uncertainty due to Covid-19, a developer can work remotely and not miss a beat. I enjoy the application process. I like learning about new companies and I really enjoy the applications where they give you skills and logics testing.  ",
+            "What projects are you working on or have you finished lately?",
+            " I recently finished a Breaking Bad Cast Profile webpage that I really enjoying. I was able to pull object data from a Breaking Bad API and call over details about each character. I am currently working on a MVP on an idea I have to keep track of my sports card investments. I want to see what I am spending, what I am selling for and the profit/loss each card brings in. This will be a full stack project because I want to utilize the data from a database. I haven't created a project with an option to upload a photo so I want to include that with this project. "
+        ]
+    },
     {
         "week": "Week 3 - Post Bootcamp",
         "question": [
