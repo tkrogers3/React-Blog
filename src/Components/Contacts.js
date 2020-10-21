@@ -24,7 +24,7 @@ const Contact = (props) => {
           <CardText className="text-start">
           <a className="pr-4 linkedIn"  text-start href="https://www.linkedin.com/in/timothykrogers/" ><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
           <a className="pr-4 github" href="https://github.com/tkrogers3" ><FontAwesomeIcon icon={faGithub} size="2x" /></a>
-          <a className="pr-4 twitter" href="https://twitter.com/TimLearnsToCode"> <FontAwesomeIcon icon={faTwitter} text-dark size="2x" /></a>
+
           <a className="pr-4 codewars" href="https://www.codewars.com/users/TimRogersBC20"><FontAwesomeIcon icon={faOldRepublic} size="2x" /></a>
           </CardText>
           </div>
